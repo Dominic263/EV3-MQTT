@@ -2,19 +2,20 @@
 
 This is a bi-directional communication between an EV3 Brick client with an MQTT Client (MQTTX); sending and receiving motor speed values.
 
-# MQTT Broker 
+## MQTT Broker 
 
 Broker of choice is [MQTTX](https://mqtt.org/software/) which is a cloud broker allowing for the bi-directional communication. MQTT is an OASIS standard messaging protocol for the Internet of Things (IoT). It is designed as an extremely lightweight publish/subscribe messaging transport that is ideal for connecting remote devices with a small code footprint and minimal network bandwidth. 
 
-![Flowchart Template](https://user-images.githubusercontent.com/59946287/129466684-5eaf7555-0fa3-4a84-8bf4-46a5f8a1689c.jpg)
+![Screen Shot 2021-08-15 at 12 21 31 AM](https://user-images.githubusercontent.com/59946287/129467052-c7c6317d-c32e-40e3-b270-8a171a767e9e.png)
 
-# EV3 Brick Micropython
 
-Notes: 
+## EV3 Brick Micropython
+
+### Notes: 
 
 -  Use port B and C for to control the two servo
 
-Embedded Code: see main.py 
+### Embedded Code: see main.py 
 
     #!/usr/bin/env pybricks-micropython
     #This is a bi-directional communication between an EV3 Brick client with an MQTT Client (MQTTX)
