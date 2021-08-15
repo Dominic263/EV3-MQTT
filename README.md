@@ -108,7 +108,7 @@ Broker of choice is [MQTTX](https://mqtt.org/software/) which is a cloud broker 
 
 ## Cloud Broker Interface
 
-- broker.emqx.io allows you to have an interactable desktop interface to control the cloud MQTT broker 
+- broker.emqx.io allows you to have an interactive desktop interface to control the cloud MQTT broker 
 
 ![Screen Shot 2021-08-14 at 11 47 30 PM](https://user-images.githubusercontent.com/59946287/129466816-81b2078f-b8c6-4d83-b08f-9c49ad6a2f53.png)
 
